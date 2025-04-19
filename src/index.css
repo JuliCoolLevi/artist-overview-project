@@ -24,6 +24,8 @@
     --width-picture: 370px;
     --height-picture: 300px;
 
+
+    --first-color: hsl(243, 57%, 55%);
 }
 
 ::-webkit-scrollbar {
@@ -37,4 +39,16 @@ html {
 
 h1, h2, h3 {
   font-family: var(--heading-font);
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0px 0px 10px #5688fc;
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--first-color);
+  transition: 0.3s;
 }

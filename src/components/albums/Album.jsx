@@ -13,6 +13,10 @@ const Album = () => {
 
         <div className='album__heading'>
            <h1>Albums</h1>
+
+           <div className='btn'>ALBUMS</div>
+           <div className='btn'>SINGLES</div>
+
         </div>
 
         <div className='album__container'>
