@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.home {
+    position: relative;
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.collage-img1 {
+    position: absolute;
+    left: 5vw;
+    top: 20vh;
+
+    width: var(--width-picture);
+    height: var(--height-picture);
+
+    opacity: 1;
+    transition: .3s;
+}
+
+.collage-img2 {
+    position: absolute;
+    right: 5vw;
+    top: 20vh;
+
+    width: var(--width-picture);
+    height: var(--height-picture);
+
+    opacity: 1;
+    transition: .3s;
+}
+
+.collage-img3 {
+    position: absolute;
+    left: 5vw;
+    top: 45vh;
+
+    width: 445px;
+    height: 300px;
+
+    opacity: 1;
+    transition: .3s;
+}
+
+.collage-img4 {
+    position: absolute;
+    right: 5vw;
+    top: 45vh;
+
+    width: 420px;
+    height: 310px;
+
+    opacity: 1;
+    transition: .3s;
+}
+
+.heading__middle {
+    z-index: 1;
+    font-family: 'Cedarville Cursive', sans-serif;
+    color: mistyrose;
+    font-size: 3rem;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 5px #917705, 0 0 10px #917705;
+    transition: .3s;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .heading__middle {
+        font-size: 4.5rem;
+    }
+
+    /* to be continued */
+    .collage-img1, .collage-img2, .collage-img3, .collage-img4 {
+        transition: .3s;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .heading__middle {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .collage-img1, .collage-img2, .collage-img3, .collage-img4 {
+        transition: .3s;
+        opacity: 0;
+    }
+}

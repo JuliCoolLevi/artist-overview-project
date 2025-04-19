@@ -1,0 +1,49 @@
+.album {
+    position: relative;
+
+    min-height: 100vh;
+
+
+    width: 100%;
+
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: flex-start;
+
+
+}
+
+.album__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 1.5rem;
+    align-items: center; 
+    
+    
+}
+
+
+.album__card img {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: var(--border-radius);
+    box-shadow: var(--shadow); */
+
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  
+
+}
+
+.album__background {
+    text-align: center;
+}
+
+.album__heading {
+    text-align: center;
+}
