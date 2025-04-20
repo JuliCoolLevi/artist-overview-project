@@ -16,6 +16,7 @@ const Album = () => {
 
            <span className='album__item'>ALBUMS</span>
            <span className='album__item'>SINGLES</span>
+           
 
         </div>
 
