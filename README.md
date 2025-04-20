@@ -1,12 +1,13 @@
-# React + Vite
+# HYBS (Have You Been Shrimp?)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This is a playful, parallax collage homepage that is built with React.
+> 
 
-Currently, two official plugins are available:
+## About the Project Associated
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**HYBS** (“Have You Been Shrimp?”) is a demo site showcasing a simple parallax‐scroll collage effect. As you scroll, layered images drift at different speeds to create depth and visual interest.
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js
+- npm or yarn
