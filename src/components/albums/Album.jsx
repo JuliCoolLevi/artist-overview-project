@@ -14,8 +14,8 @@ const Album = () => {
         <div className='album__heading'>
            <h1>Albums</h1>
 
-           <div className='btn'>ALBUMS</div>
-           <div className='btn'>SINGLES</div>
+           <span className='album__item'>ALBUMS</span>
+           <span className='album__item'>SINGLES</span>
 
         </div>
 

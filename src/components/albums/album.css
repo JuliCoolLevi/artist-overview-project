@@ -13,6 +13,17 @@
 
 }
 
+.album__item {
+    cursor: pointer;
+    padding-left: 10px;
+    transition: 0.3s;
+    
+}
+
+.album__item:hover {
+    color: rgb(121, 145, 235);
+}
+
 .album__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
